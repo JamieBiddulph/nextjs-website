@@ -14,7 +14,7 @@ export default function Home({ videos }) {
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           Hi There - I'm Jamie! :)
         </h1>
-        <h2 className="prose text-gray-600 dark:text-gray-400 mb-16">
+        <h2 className="prose text-purple-600 dark:text-purple-400 mb-16">
           I'm a DevOps Engineer, Tech Junkie And Motocross Enthusiast!
           –&nbsp;
           <Link href="/about">

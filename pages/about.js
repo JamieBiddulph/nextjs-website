@@ -6,7 +6,7 @@ const Talk = ({ title, link, children }) => (
   <>
     <h3 className="font-medium mb-2 text-lg">
       <a
-        className="flex items-center text-gray-900 dark:text-gray-100"
+        className="flex items-center text-purple-900 dark:text-purple-100"
         target="_blank"
         rel="noopener noreferrer"
         href={link}
@@ -30,7 +30,7 @@ const Talk = ({ title, link, children }) => (
         </div>
       </a>
     </h3>
-    <p className="text-gray-600 dark:text-gray-400 mb-8">{children}</p>
+    <p className="text-purple-600 dark:text-purple-400 mb-8">{children}</p>
   </>
 );
 
@@ -41,7 +41,7 @@ export default function About() {
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           Key Skills
         </h1>
-        <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
+        <div className="mb-8 prose leading-6 text-purple-600 dark:text-purple-400">
           <p>
            <li>Linux Administration (CentOS / RHEL & Debian / Ubuntu)</li>
            <li>Shell/Bash Scripting</li>
@@ -56,7 +56,7 @@ export default function About() {
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           Hobbyist Achievements
         </h1>
-        <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
+        <div className="mb-8 prose leading-6 text-purple-600 dark:text-purple-400">
           <p>
            <li>2019 National Twinshock 250cc Class Runner Up</li>
            <li>2018 National Twinshock 250cc Class Champion</li>

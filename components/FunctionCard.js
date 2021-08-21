@@ -11,7 +11,7 @@ export default function FunctionCard({
   return (
     <Link href={`/snippets/${slug}`}>
       <a
-        className="border border-grey-200 dark:border-gray-900 rounded p-4 w-full"
+        className="border border-grey-200 dark:border-purple-900 rounded p-4 w-full"
         {...rest}
       >
         <Image
@@ -21,10 +21,10 @@ export default function FunctionCard({
           src={`/logos/${logo}`}
           className="rounded-full"
         />
-        <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
+        <h3 className="text-lg font-bold text-left mt-2 text-purple-900 dark:text-purple-100">
           {title}
         </h3>
-        <p className="mt-1 text-gray-700 dark:text-gray-400">{description}</p>
+        <p className="mt-1 text-purple-700 dark:text-purple-400">{description}</p>
       </a>
     </Link>
   );
