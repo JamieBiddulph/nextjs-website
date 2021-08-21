@@ -15,11 +15,11 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.gray.700'),
+            color: theme('colors.purple.700'),
             a: {
-              color: theme('colors.blue.500'),
+              color: theme('colors.blue.800'),
               '&:hover': {
-                color: theme('colors.blue.700')
+                color: theme('colors.green.1200')
               },
               code: { color: theme('colors.blue.400') }
             },
@@ -33,40 +33,40 @@ module.exports = {
         },
         dark: {
           css: {
-            color: theme('colors.gray.300'),
+            color: theme('colors.purple.300'),
             a: {
-              color: theme('colors.blue.400'),
+              color: theme('colors.red.600'),
               '&:hover': {
-                color: theme('colors.blue.600')
+                color: theme('colors.red.600')
               },
-              code: { color: theme('colors.blue.400') }
+              code: { color: theme('colors.red.400') }
             },
             blockquote: {
-              borderLeftColor: theme('colors.gray.700'),
-              color: theme('colors.gray.300')
+              borderLeftColor: theme('colors.purple.700'),
+              color: theme('colors.purple.300')
             },
             'h2,h3,h4': {
-              color: theme('colors.gray.100'),
+              color: theme('colors.purple.100'),
               'scroll-margin-top': spacing[32]
             },
-            hr: { borderColor: theme('colors.gray.700') },
+            hr: { borderColor: theme('colors.purple.700') },
             ol: {
               li: {
-                '&:before': { color: theme('colors.gray.500') }
+                '&:before': { color: theme('colors.purple.500') }
               }
             },
             ul: {
               li: {
-                '&:before': { backgroundColor: theme('colors.gray.500') }
+                '&:before': { backgroundColor: theme('colors.purple.500') }
               }
             },
-            strong: { color: theme('colors.gray.300') },
+            strong: { color: theme('colors.purple.300') },
             thead: {
-              color: theme('colors.gray.100')
+              color: theme('colors.purple.100')
             },
             tbody: {
               tr: {
-                borderBottomColor: theme('colors.gray.700')
+                borderBottomColor: theme('colors.purple.700')
               }
             }
           }

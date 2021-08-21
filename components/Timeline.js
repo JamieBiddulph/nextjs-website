@@ -2,13 +2,13 @@ import { useState } from 'react';
 
 const Divider = () => {
   return (
-    <div className="border border-gray-200 dark:border-gray-600 w-full my-8" />
+    <div className="border border-purple-200 dark:border-purple-600 w-full my-8" />
   );
 };
 
 const Year = ({ children }) => {
   return (
-    <h3 className="text-lg md:text-xl font-bold mb-4 tracking-tight text-gray-900 dark:text-gray-100">
+    <h3 className="text-lg md:text-xl font-bold mb-4 tracking-tight text-purple-900 dark:text-purple-100">
       {children}
     </h3>
   );
@@ -31,9 +31,9 @@ const Step = ({ title, children }) => {
             <path d="M22 4L12 14.01l-3-3" />
           </g>
         </svg>
-        <p className="font-medium text-gray-900 dark:text-gray-100">{title}</p>
+        <p className="font-medium text-purple-900 dark:text-purple-100">{title}</p>
       </div>
-      <p className="text-gray-700 dark:text-gray-400 ml-6">{children}</p>
+      <p className="text-purple-700 dark:text-purple-400 ml-6">{children}</p>
     </li>
   );
 };
@@ -123,7 +123,7 @@ export default function Timeline() {
       ) : (
         <button
           type="button"
-          className="flex items-center text-sm my-4 mx-auto px-4 py-2 rounded-md font-medium text-gray-900 dark:text-gray-100"
+          className="flex items-center text-sm my-4 mx-auto px-4 py-2 rounded-md font-medium text-purple-900 dark:text-purple-100"
           onClick={() => showFullTimeline(true)}
         >
           See More
